@@ -1,0 +1,26 @@
+{
+  "signals": [
+    {
+      "city": "karachi",
+      "signal_type": "social_post",
+      "value": {
+        "text": "Road completely submerged near Gulshan underpass, cars stranded #KarachiFloods",
+        "source": "twitter_mock",
+        "engagement": 847
+      },
+      "timestamp": "2025-07-15T14:22:00Z",
+      "location": { "lat": 24.9215, "lng": 67.0946, "zone": "Gulshan Underpass" }
+    },
+    {
+      "city": "karachi",
+      "signal_type": "social_post",
+      "value": {
+        "text": "Nazimabad underpass completely flooded. Water level rising fast. Avoid the area! #Karachi",
+        "source": "twitter_mock",
+        "engagement": 1540
+      },
+      "timestamp": "2025-07-15T14:26:00Z",
+      "location": { "lat": 24.9056, "lng": 67.0439, "zone": "Nazimabad" }
+    }
+  ]
+}
