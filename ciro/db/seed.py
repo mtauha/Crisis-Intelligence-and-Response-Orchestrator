@@ -11,8 +11,8 @@ SessionLocal = async_sessionmaker(engine, expire_on_commit=False)
 async def seed():
     async with SessionLocal() as session:
         # Check idempotency for Karachi
-        result = await session.exec(select(CityState).where(CityState.city == "karachi"))
-        if not result.first():
+        result = await session.execute(select(CityState).where(CityState.city == "karachi"))
+        if not result.scalars().first():
             # Seed Karachi City State
             karachi_state = CityState(city="karachi", status="normal", active_incidents=0)
             session.add(karachi_state)
