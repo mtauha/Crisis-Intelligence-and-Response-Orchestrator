@@ -1,0 +1,11 @@
+{
+  "signals": [
+    {
+      "city": "karachi",
+      "signal_type": "rainfall_mm",
+      "value": 87.4,
+      "timestamp": "2025-07-15T14:30:00Z",
+      "location": { "lat": 24.8607, "lng": 67.0011, "zone": "Gulshan-e-Iqbal" }
+    }
+  ]
+}
