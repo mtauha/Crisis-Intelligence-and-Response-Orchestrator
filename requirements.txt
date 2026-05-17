@@ -8,3 +8,5 @@ alembic
 pydantic-settings
 pytest
 pytest-asyncio
+google-adk
+testcontainers[postgres]
