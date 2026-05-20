@@ -56,3 +56,9 @@ Thumbs.db
 artifacts/
 .gemini/
 stubs/*.json
+__pycache__
+.venv
+.env
+*.pyc
+.agent_run_cache
+.claude

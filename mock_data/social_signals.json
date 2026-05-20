@@ -1,0 +1,14 @@
+{
+  "signals": [
+    {
+      "city": "karachi",
+      "signal_type": "social_post",
+      "value": {"text": "Paani bohot bhar gaya hai"},
+      "source": "twitter",
+      "crisis_type": "urban_flooding",
+      "location": {"lat": 24.8, "lng": 67.0},
+      "confidence_hint": 0.8,
+      "verification_tag": "unverified"
+    }
+  ]
+}
